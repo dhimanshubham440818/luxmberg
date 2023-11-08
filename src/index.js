@@ -4,12 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import TimeLine from './Components/TimeLine';
-
+import WorldMap from './Components/WorldMap'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <TimeLine/>
+    <WorldMap/>
   </React.StrictMode>
 );
 

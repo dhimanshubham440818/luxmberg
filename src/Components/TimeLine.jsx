@@ -23,24 +23,20 @@ function TimeLine(){
    return (
         <>
         <div className='position-relative'>
-        <div className='l1'>
-             
-       
-           <img className='' src={jr_one_old} style={{width:"100%" , height:'100%' , }} />
-
-            
+        <div className='l1'>       
+           <img className='' src={jr_one_old} style={{width:"100%" , height:'100%' , border: "4px solid #F69C9E", borderRadius: "50%" }} />
         </div>
         <div className='l2'>
-          <img className='' src={jr_one} style={{width:"100%" , height:'100%'}} />
+          <img className='' src={jr_one} style={{width:"100%" , height:'100%' ,border: "5px solid #F69C9E", borderRadius: "50%"}} />
         </div>
         <div className='l3'>
-         <img className='' src={jr__three} style={{width:"100%" , height:'100%'}} />
+         <img className='' src={jr__three} style={{width:"100%" , height:'100%',border: "5px solid #CC454C", borderRadius: "50%"}} />
         </div>
         <div className='l4'>
-          <img className='' src={jr__five} style={{width:"100%" , height:'100%'}} />
+          <img className='' src={jr__five} style={{width:"100%" , height:'100%',border: "5px solid #CC454C", borderRadius: "50%"}} />
         </div>
         <div className='l5'>
-          <img className='' src={jr__four} style={{width:"100%" , height:'100%'}} />
+          <img className='' src={jr__four} style={{width:"100%" , height:'100%',border: "5px solid #CC454C", borderRadius: "50%"}} />
         </div>
         <div className=''>
           <img src={frame} style={{width:"100vw" , height:'100vh'}}/>
