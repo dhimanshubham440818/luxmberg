@@ -485,14 +485,15 @@ input {
   position: relative;
 }
 
+ 
 .l1 {
   left: 21%;
   z-index: 1;
   position: absolute;
   top: 30%;
   width: 16.5%;
-  height: 30%;
-  opacity: 0;
+  height: 40%;
+  opacity: 0; 
   transition: 0.8s;
 }
 
@@ -503,7 +504,8 @@ input {
   top: 28.5%;
   left: 15.5%;
   height: 32%;
-
+  /* border: 2px solid red;   
+  border-radius: 50%; */
 }
 
 .l2 {
