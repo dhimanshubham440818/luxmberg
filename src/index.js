@@ -8,7 +8,7 @@ import WorldMap from './Components/WorldMap'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <TimeLine/>
+    {/* <TimeLine/> */}
     <WorldMap/>
   </React.StrictMode>
 );
